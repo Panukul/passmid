@@ -1,5 +1,5 @@
-#include <iostream>
-#include <time.h>
+#include<iostream>
+#include<time.h>
 using namespace std;
 int checkNum(int,int);
 int main() 
