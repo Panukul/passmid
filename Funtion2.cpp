@@ -12,6 +12,10 @@ void main()
 	{
 		cout<<"Input command(1 or withdraw, 2 deposit):";
 		cin>>a;
+		if (a == "0")
+		{
+			break;
+		}
 		cout<<"Input amout : ";
 		cin>>b;
 		update_balance(a,b,c);
